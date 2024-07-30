@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="desktop-nav">
+      <ul class="desktop-menu">
+        <li>
+          <a class="navlink" href="#about">about</a>
+        </li>
+        <li>
+          <a class="navlink" href="/projects.html">projects</a>
+        </li>
+        <li>
+          <a class="navlink" href="#">contact</a>
+        </li>
+      </ul>
+      <div class="mobile-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="mobile-intro">
+        <p>My name is Yesol Kwon</p>
+        <p>, Full-Stack Developer</p>
+      </div>
+      <svg class="svg-view" viewBox="0 0 500 200">
+        <title>Portfolio Visual design element</title>
+        <desc>
+          This SVG contains a half blue circle representing a visual design
+          element. Along the curved path, there is an introduction text that
+          says "My name is Yesol Kwon, Full-stack developer." The text follows
+          the curve, starting from the left side and moving towards the right.
+        </desc>
+        <path
+          id="curve"
+          d="M40.2,148.6c4.8-7.3,78.6-116.2,214.3-114.7c133.6,1.4,204.9,108.4,210.1,116.4"
+          fill="none"
+          stroke="none"
+        />
+        <text width="500">
+          <textPath startOffset="5%" xlink:href="#curve" class="text">
+            My name is Yesol Kwon , Full-Stack developer.
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="5s"
+              repeatCount="1"
+            />
+          </textPath>
+        </text>
+      </svg>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <header>
+        <img src="./images/asterisk-02-svgrepo-com.svg" alt="asterisk image" />
+        <h1 class="page-name">about me</h1>
+        <img src="./images/asterisk-02-svgrepo-com.svg" alt="asterisk image" />
+      </header>
+      <div class="profile">
+        <div class="profile-image-container">
+          <div class="profile-image">
+            <img
+              src="./images/profile-image.png"
+              alt="Black and white profile image of Yesol Kwon smiling"
+            />
+          </div>
+          <button class="resume-btn btn">Resume</button>
+        </div>
+        <div class="profile-detail">
+          <div class="profile-detail-menu">
+            <p>biography</p>
+            <button class="buttons" data-id="bio">
+              <img
+                src="./images/plus-svgrepo-com.svg"
+                alt="Plus image for
+              button"
+              />
+            </button>
+          </div>
+          <p class="profile-detail-bio hidden">
+            My background in customer service has equipped me with
+            <strong>strong</strong> communication and
+            <strong>teamwork abilities.</strong>
+            I am passionate about <strong>continuous learning</strong> and enjoy
+            creating my own projects from what I learn. I believe technology can
+            positively impact people’s lives, and I strive to understand
+            people's needs and find better solutions for them.
+          </p>
+          <div class="profile-detail-menu">
+            <p>tech skills</p>
+            <button class="buttons" data-id="skill">
+              <img
+                src="./images/plus-svgrepo-com.svg"
+                alt="Plus image for
+              button"
+              />
+            </button>
+          </div>
+
+          <div class="profile-detail-skills hidden">
+            <h3>Frontend</h3>
+            <div class="front">
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <h3>Backend</h3>
+            <div class="backend">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Nodejs</span>
+              <span>MySQL</span>
+              <span>Mongo DB</span>
+            </div>
+            <h3>Additional Skills</h3>
+            <div class="others">
+              <span>Git/Github</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
