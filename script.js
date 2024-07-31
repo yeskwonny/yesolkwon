@@ -11,12 +11,17 @@ btns.forEach((b) =>
     if (btnId === "bio") {
       bioParagraph.classList.toggle("hidden");
       bioParagraph.classList.toggle("visible");
+      skillParagraph.classList.remove("visible");
+      skillParagraph.classList.add("hidden");
     } else {
       skillParagraph.classList.toggle("hidden");
       skillParagraph.classList.toggle("visible");
+      bioParagraph.classList.remove("visible");
+      bioParagraph.classList.add("hidden");
     }
   })
 );
+// how can i do if i click the ohter button close the the ohter part
 
 mobileNav.addEventListener("click", function () {
   mobileNav.classList.toggle("active");
