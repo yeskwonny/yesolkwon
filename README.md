@@ -1,7 +1,7 @@
-# your_name_here - Portfolio Task
+# Yesol Kwon - Portfolio Task
 
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](https://yeskwonny.github.io/portfolio-2024/)
 ​
 
 ## Project Requirements
@@ -10,19 +10,15 @@
 
 This portfolio website is built with HTML,CSS and JavaScript. There are About me, Projects and Contact pages with extra link to LinkedIn and Github.
 
-      ​
-
 ### Technical
 
-The portfolio website is responsive design for different devices including mobile. It is deployed on GitHub pages.
+The website is designed to be responsive, ensuring a seamless experience across various devices, including desktops, tablets, and mobile phones. It is hosted and deployed on GitHub Pages, providing an accessible for showcasing my work.
 
 ### Bonus (optional)
-hamburger menu for the mobile screen size.
-hover effect for the link for user friendly experience.
 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
-      ​
+The menu automatically adapts to different screen sizes, appearing as a traditional horizontal navigation bar on larger screens and as a hamburger icon on mobile devices.
+For an enhanced user-friendly experience, a hover effect is applied to the navigation links. When the user hovers over a link, it changes appearance (e.g., changes color, underlines) to indicate interactivity, improving accessibility and usability.
+​
 
 ### Screenshots
 
@@ -33,6 +29,9 @@ hover effect for the link for user friendly experience.
 >
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code:
 
-#### image_title_goes_here
+#### desktop ver.
 
-![Put a description of your image here](./relative_path_to_file)
+![Home](./images/screenshots/desktop-home.png)
+![About](./images/screenshots/desktop-about.png)
+![Project](./images/screenshots/desktop-project.png)
+![Contact](./images/screenshots/desktop-contact.png)
