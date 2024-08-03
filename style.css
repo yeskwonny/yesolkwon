@@ -325,6 +325,25 @@ button {
   border-radius: 10px;
 }
 
+.project {
+  animation: textEffect 2s ease-in-out alternate;
+}
+.project:nth-child(2) {
+  animation: textEffect 5s ease-in-out alternate;
+}
+
+@keyframes textEffect {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 /* *CONTACT*/
 footer {
   background-color: var(--blue);
@@ -409,11 +428,11 @@ footer h2 {
     text-align: center;
     width: 100%;
     height: 100%;
-    animation: textShadow 2s ease-in-out alternate;
+    animation: textEffect 2s ease-in-out alternate;
     position: absolute;
     z-index: 5;
   }
-  @keyframes textShadow {
+  @keyframes textEffect {
     from {
       opacity: 0;
       transform: translateX(-100px);
