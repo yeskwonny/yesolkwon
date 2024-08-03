@@ -31,7 +31,7 @@ For an enhanced user-friendly experience, a hover effect is applied to the navig
 
 #### desktop ver.
 
-![Home](./images/screenshots/desktop-home.png)
+![Home](./images/screenshots/desktop-home.png =200x20)
 ![About](./images/screenshots/desktop-about.png)
 ![Project](./images/screenshots/desktop-project.png)
 ![Contact](./images/screenshots/desktop-contact.png)
