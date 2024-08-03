@@ -24,14 +24,15 @@ For an enhanced user-friendly experience, a hover effect is applied to the navig
 
 #### Desktop ver.
 
-![Home](./images/screenshots/desktop-home)
+![Home](./images/screenshots/desktop-home.png)
 ![About](./images/screenshots/desktop-about.png)
 ![Contact](./images/screenshots/desktop-contact.png)
 ![Projects](./images/screenshots/desktop-project.png)
 
-#### Mobilr ver.
+#### Mobile ver.
 
-![Home](./images/screenshots/mobile-home)
+![Home](./images/screenshots/mobile-home.png)
+![Nav](./images/screenshots/mobile-home.png)
 ![About](./images/screenshots/mobile-about.png)
 ![Contact](./images/screenshots/mobile-contact.png)
 ![Projects](./images/screenshots/mobile-project.png)
