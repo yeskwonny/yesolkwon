@@ -1,7 +1,7 @@
 # Yesol Kwon - Portfolio Task
 
 ​
-[My portfolio site](https://yeskwonny.github.io/portfolio-2024/)
+[My portfolio site](https://yeskwonny.github.io/yesolkwon/)
 ​
 
 ## Project Requirements
