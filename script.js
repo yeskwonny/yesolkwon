@@ -3,6 +3,7 @@ const bioParagraph = document.querySelector(".profile-detail-bio");
 const skillParagraph = document.querySelector(".profile-detail-skills");
 const deskNav = document.querySelector(".desktop-menu");
 const mobileNav = document.querySelector(".mobile-nav");
+const navlinks = document.querySelectorAll(".navlink");
 // navlinks active classlist remove
 btns.forEach((b) =>
   b.addEventListener("click", function () {
@@ -27,3 +28,10 @@ mobileNav.addEventListener("click", function () {
   mobileNav.classList.toggle("active");
   deskNav.classList.toggle("active");
 });
+console.log(navlinks);
+navlinks.forEach((link) =>
+  link.addEventListener("click", function () {
+    deskNav.classList.remove("active");
+    mobileNav.classList.remove("active");
+  })
+);
