@@ -32,7 +32,7 @@ For an enhanced user-friendly experience, a hover effect is applied to the navig
 #### Mobile ver.
 
 ![Home](./images/screenshots/mobile-home.png)
-![Nav](./images/screenshots/mobile-home.png)
+![Nav](./images/screenshots/mobile-nav.png)
 ![About](./images/screenshots/mobile-about.png)
 ![Contact](./images/screenshots/mobile-contact.png)
 ![Projects](./images/screenshots/mobile-project.png)
