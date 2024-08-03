@@ -566,14 +566,14 @@ footer h2 {
     font-size: 1.5rem;
   }
 
-  header img {
+  /* header img {
     width: 30px;
     height: 60px;
-  }
+  } */
 
   .profile-image > img {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -581,7 +581,7 @@ footer h2 {
   .profile-detail {
     gap: 1rem;
     min-width: 50%;
-    justify-content: center;
+    height: 50%;
   }
   /* project */
   .project {
