@@ -285,6 +285,11 @@ button {
   justify-content: space-between;
   border: 3px solid var(--blue);
   padding: 10px 10px;
+  width: 40%;
+}
+.project video {
+  width: 50%;
+  margin-right: 2rem;
 }
 
 .project-link {
@@ -305,7 +310,6 @@ button {
 
 .link-button a:hover {
   color: var(--blue);
-  text-decoration: underline;
   text-decoration-color: var(--blue);
 }
 
@@ -317,7 +321,9 @@ button {
 
 .skills {
   display: flex;
-  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 .project-skill span {
   border: 1px solid var(--black);
@@ -405,6 +411,10 @@ footer h2 {
   .svg-view {
     width: 90%;
   }
+
+  .project video {
+    height: auto;
+  }
 }
 
 /*  large screen */
@@ -469,6 +479,21 @@ footer h2 {
 
   .profile-detail {
     overflow-y: scroll;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project video {
+    margin: 0;
+  }
+
+  .project video,
+  .project-info {
+    width: 100%;
   }
 }
 /* medium size */
@@ -590,8 +615,12 @@ footer h2 {
     justify-content: center;
     align-items: center;
   }
-
   .project video {
+    margin: 0;
+  }
+
+  .project video,
+  .project-info {
     width: 100%;
   }
 
