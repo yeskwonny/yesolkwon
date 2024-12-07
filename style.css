@@ -261,6 +261,8 @@ button {
   margin-top: 20px;
   height: auto;
   background-color: var(--page-color);
+  align-items: center; /* 가로축 가운데 정렬 */
+  justify-content: center; /* 세로축 가운데 정렬 */
 }
 .project {
   padding: 20px 15px;
@@ -287,6 +289,7 @@ button {
   border: 3px solid var(--blue);
   padding: 10px 10px;
   width: 40%;
+  margin: 0 auto;
 }
 .project video {
   width: 50%;
@@ -318,8 +321,9 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
   transition: background-color 0.3s ease;
+  font-family: "Syne", sans-serif;
 }
 
 .back:hover {
